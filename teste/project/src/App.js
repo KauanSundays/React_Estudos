@@ -1,13 +1,18 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld.js'
+import HelloWorld from './components/helloworld.js';
+import Pessoa from './components/Pessoa.js';
+import Lorem  from './components/lorem';
+import List from './components/List';
 
 function App() {
-  const name = 'kauan'
-
   return (
     <div className="App">
-    <p>Olá {name}</p>
+    <p>Olá</p>
     <HelloWorld/>
+    <Pessoa nome= "Kauan" idade = "19" profissao = "Programador"/>
+    <Lorem/>
+
+    <List/>
     </div>
     
   );

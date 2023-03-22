@@ -1,13 +1,7 @@
-import Frase from './frase.js';
-
-function HelloWorld() {
-  return (
-    <div>
-      <Frase/>
-      <Frase/>
-      <h1>Hello world</h1>
-    </div>
-  )
+function HelloWorld () {
+    return (
+        <h1>Hello World</h1>
+    )
 }
 
-export default HelloWorld;
+export default HelloWorld
